@@ -136,9 +136,9 @@
           }
         }
       }
-    },
-    "functionality": [""],
-    "sizing_updates": [""],
-    "screen_and_layout_augmentations": []
-  }
+    }
+  },
+  "functionality": { "": "" },
+  "sizing_updates": [],
+  "screen_and_layout_augmentations": []
 }
