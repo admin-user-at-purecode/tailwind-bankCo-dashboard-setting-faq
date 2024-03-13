@@ -47,6 +47,15 @@ function HeaderOne({ handleSidebar }) {
             </svg>
           </span>
         </button>
+        {/* <div>
+          <h3 className="text-xl font-bold text-bgray-900 dark:text-bgray-50 lg:text-3xl lg:leading-[36.4px]">
+            Dashboard
+          </h3>
+          <p className="text-xs font-medium text-bgray-600 dark:text-bgray-50 lg:text-sm lg:leading-[25.2px]">
+            Let’s check your update today
+          </p>
+        </div> */}
+        <SearchBar />
         <div>
           <h3 className="text-xl font-bold text-bgray-900 dark:text-bgray-50 lg:text-3xl lg:leading-[36.4px]">
             Dashboard
@@ -55,7 +64,6 @@ function HeaderOne({ handleSidebar }) {
             Let’s check your update today
           </p>
         </div>
-        <SearchBar />
 
         <div className="quick-access-wrapper relative">
           <div className="flex items-center space-x-[43px]">
